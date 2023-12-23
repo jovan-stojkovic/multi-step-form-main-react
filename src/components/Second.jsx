@@ -12,44 +12,29 @@ const Second = () => {
         </div>
 
         <div className="options">
-          <NavLink>
+          <button className="option-button focused">
             <div className="option-container">
-                <div className="img-container">
-              <img
-                src="https://www.iconbolt.com/iconsets/iconoir/arcade.svg"
-                alt="arcade"
-              />
-              </div>
+              <img src="src/assets/icon-arcade.svg" alt="arcade" />
               <p className="option-headline">Arcade</p>
               <p className="option-price">$9/mo</p>
             </div>
-          </NavLink>
+          </button>
 
-          <NavLink>
+          <button className="option-button">
             <div className="option-container">
-                <div className="img-container">
-              <img
-                src="https://www.iconbolt.com/iconsets/teenyicons-outline/game-controller-retro.svg"
-                alt="advanced"
-              />
-              </div>
+              <img src="src/assets/icon-advanced.svg" alt="advanced" />
               <p className="option-headline">Advanced</p>
               <p className="option-price">$12/mo</p>
             </div>
-          </NavLink>
+          </button>
 
-          <NavLink>
+          <button className="option-button">
             <div className="option-container">
-                <div className="img-container">
-              <img
-                src="https://www.iconbolt.com/iconsets/bootstrap-icons/controller.svg"
-                alt="pro"
-              />
-              </div>
+              <img src="src/assets/icon-pro.svg" alt="pro" />
               <p className="option-headline">Arcade</p>
               <p className="option-price">$15/mo</p>
             </div>
-          </NavLink>
+          </button>
         </div>
 
         <div className="selector">
@@ -62,14 +47,13 @@ const Second = () => {
         </div>
 
         <div className="buttons second-page-buttons">
-            <Link className="back-button" to="/">
+          <Link className="back-button" to="/">
             Go Back
-            </Link>
+          </Link>
           <Link className="next-button" to="/third">
             Next Step
           </Link>
         </div>
-
       </div>
     </>
   );
