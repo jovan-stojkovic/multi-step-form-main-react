@@ -11,7 +11,7 @@ const Third = () => {
 
         <div className="checkboxes">
 
-          <div className="first-checkbox-container">
+          <div className="first-checkbox-container checkbox-container">
             <input type="checkbox" id="first-checkbox" />
             <label htmlFor="first-checkbox">
               <div className="text-info-checkbox">
@@ -22,7 +22,7 @@ const Third = () => {
             </label>
           </div>
 
-          <div className="second-checkbox-container">
+          <div className="second-checkbox-container checkbox-container">
             <input type="checkbox" id="second-checkbox" />
             <label htmlFor="second-checkbox">
               <div className="text-info-checkbox">
@@ -33,7 +33,7 @@ const Third = () => {
             </label>
           </div>
 
-          <div className="third-checkbox-container">
+          <div className="third-checkbox-container checkbox-container">
             <input type="checkbox" id="third-checkbox" />
             <label htmlFor="third-checkbox">
               <div className="text-info-checkbox">
